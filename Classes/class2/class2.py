@@ -2,17 +2,17 @@
 # Data types
 
 # 1) String
-name: str = "fawad"
+name: str = "nihal"
 
 # 2) Integer
 age: int = 12
 
 # 3) list
-friends: list[str] = ["Fawad", "Huzair"]
+friends: list[str] = ["huzi", "khizer"]
 print(friends[0])
 
 # 4) Set
-logged_user: set = {"fawad", "fawad", 1, 2, 2}
+logged_user: set = {"huzi", "huzi", 1, 2, 2}
 print(logged_user)
 
 # 5) Complex
@@ -40,12 +40,12 @@ students[0] = "bilal"
 
 # Immutaeable
 # 1)string
-myName = "bilal"
+myName = "nihal"
 print(myName[0])
 
 # 2)Tuple
 
-numbers_std: tuple[str, str] = ("bilal", "fawad")
+numbers_std: tuple[str, str] = ("nihal", "fawad")
 # numbers_std[0]="Bilal" Shoe Error
 
 data = f"""

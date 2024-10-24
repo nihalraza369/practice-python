@@ -1,7 +1,7 @@
 print("Hello World")
 
-name:str="bilal"
+name:str="nihal raza"
 # name=12
-age:int=12
+age:int=16
 prop:dict={}
 

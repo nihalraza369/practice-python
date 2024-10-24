@@ -4,13 +4,13 @@ import re
 # table = pd.read_html("https://www.w3schools.com/python/python_operators.asp")
 # Strin Methods
 
-message1 = "bilal raza"
+message1 = "nihal"
 
 message = """
 I am {0}
 i am {2} years old
 I am in {1}
-""".format("Bilal", "10", "class")
+""".format("nihal", "10", "class")
 my_name="Ha,mmad"
 print(my_name.casefold())
 print(my_name.find("am"))
@@ -24,13 +24,13 @@ print([*message1])
 # print(message.splitlines())
 
 # print(message.split())
-# information = "I    am    Billal"
+# information = "I    am    nihal"
 # other_information = re.sub(" {2,10}", " ", information)
 # print(other_information)
 # print(information.strip())
 
 
-# myName:str="bilal"
+# myName:str="nihal"
 # print(myName.split(""))
 # print(message)
 
@@ -133,8 +133,8 @@ num2: float = 6.0
 print(num2/num1)
 
 #  copy by whole value
-film: dict = {"name": "bilal"}
-film2: dict = {"name": "faysal"}
+film: dict = {"name": "nihal"}
+film2: dict = {"name": "huzi"}
 print("FIlm", id(film))
 print("FIlm", id(film2))
 print(film == film2)  # True
@@ -144,9 +144,9 @@ print(False == 0)
 
 print("Short", 1 == True > 4)
 print("Short", 1 == True and True > 4)
-print(id("Bilal"))
+print(id("nihal"))
 
-print("Short", id("Bilal")==2588480746096 ==id("bilal") )
+print("Short", id("nihall")==2588480746096 ==id("nihal") )
 
 
 print(5>4 and True==0)
